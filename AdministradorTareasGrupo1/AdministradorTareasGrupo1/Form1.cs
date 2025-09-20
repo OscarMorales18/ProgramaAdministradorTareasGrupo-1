@@ -17,7 +17,7 @@ namespace AdministradorTareasGrupo1
         {
             InitializeComponent();
             UpdateProcessList();
-            // timer1.Enable = true;
+             timer1.Enabled = true;
         }
         private void UpdateProcessList()
         {
@@ -88,6 +88,16 @@ namespace AdministradorTareasGrupo1
             labelRam.Text = string.Format("{0:0.00}%", ram);
             grafica.Series["CPU"].Points.AddY(cpu);
             grafica.Series["RAM"].Points.AddY(ram);
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnActualizar_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -43,3 +43,18 @@ C:\Users\andyg\OneDrive\Documents\SO\Proyecto\ProgramaAdministradorTareasGrupo-1
 C:\Users\andyg\OneDrive\Documents\SO\Proyecto\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\Administ.ABFD2144.Up2Date
 C:\Users\andyg\OneDrive\Documents\SO\Proyecto\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.exe
 C:\Users\andyg\OneDrive\Documents\SO\Proyecto\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.pdb
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\bin\Debug\AdministradorTareasGrupo1.exe.config
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\bin\Debug\AdministradorTareasGrupo1.exe
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\bin\Debug\AdministradorTareasGrupo1.pdb
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\bin\Debug\MetroFramework.Design.dll
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\bin\Debug\MetroFramework.dll
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.csproj.AssemblyReference.cache
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.exe.config
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.VentanaAdmin.resources
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.Properties.Resources.resources
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.csproj.GenerateResource.cache
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.csproj.CoreCompileInputs.cache
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\Administ.ABFD2144.Up2Date
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.exe
+C:\Users\Sofia PC\Desktop\2P proyectos\ProgramaAdministradorTareasGrupo-1\AdministradorTareasGrupo1\AdministradorTareasGrupo1\obj\Debug\AdministradorTareasGrupo1.pdb
