@@ -388,30 +388,36 @@ namespace AdministradorTareasGrupo1
                 txtProceso.Text = dgvAdministrador.CurrentRow.Cells[0].Value?.ToString() ?? "";
             }
         }
-
+        //-------------------------------------------Realizado por Andy Garcia--------------------------------------------------
+        //herramienta para ejecutar un bloque de código de manera periódica en intervalos de tiempo definido
         private void timer2_Tick(object sender, EventArgs e)
         {
             try
             {
+                // obtienendo los valores actuales de CPU y RAM mediante la herramienta PerformanceCounters
                 float cpu = pCPU.NextValue();
                 float ram = pRAM.NextValue();
-                gCPU.Value = (int)Math.Min(cpu, 100);
-                gRAM.Value = (int)Math.Min(ram, 100);
-                labelCPU.Text = string.Format("{0:0.00}%", cpu);
-                labelRam.Text = string.Format("{0:0.00}%", ram);
 
-                // Limitar puntos en gráfica
+                // Asignaciion de los valores a las barras de progreso
+                gCPU.Value = (int)Math.Min(cpu, 100); //Maximo 100%
+                gRAM.Value = (int)Math.Min(ram, 100); //Maximo 100%
+
+                // Mostrando los valores en etiquetas 
+                labelCPU.Text = string.Format("{0:0.00}%", cpu); //Se utiliza formato con dos decimales y el símbolo de porcentaje
+                labelRam.Text = string.Format("{0:0.00}%", ram); //Se utiliza formato con dos decimales y el símbolo de porcentaje
+
+                // Se limita la cantidad de puntos en la gráfica (máximo de 50) para evitar exceso de uso de recursos
                 if (grafica.Series["CPU"].Points.Count > 50)
                     grafica.Series["CPU"].Points.RemoveAt(0);
                 if (grafica.Series["RAM"].Points.Count > 50)
                     grafica.Series["RAM"].Points.RemoveAt(0);
 
+                // Agregando los nuevos valores a las series de la gráfica
                 grafica.Series["CPU"].Points.AddY(cpu);
                 grafica.Series["RAM"].Points.AddY(ram);
             }
             catch (Exception )
             {
-                // Manejar errores silenciosamente
             }
         }
 
