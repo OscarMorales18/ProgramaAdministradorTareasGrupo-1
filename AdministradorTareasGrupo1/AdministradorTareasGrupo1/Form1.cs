@@ -13,13 +13,13 @@ using Microsoft.Win32;
 namespace AdministradorTareasGrupo1
 {
     public partial class VentanaAdmin : MetroFramework.Forms.MetroForm
-    {
+    {        //Andre Gonzalez 9959-23-3117
         private List<Process> listaProcesosFull; // Lista completa de procesos
         private TextBox txtBuscar; // TextBox para búsqueda
         private Label lblBuscar; // Label para el TextBox de búsqueda
 
         public VentanaAdmin()
-        {
+        { //Andre Gonzalez 9959-23-3117
             InitializeComponent();
             this.Text = "";
 
@@ -37,7 +37,7 @@ namespace AdministradorTareasGrupo1
             tituloPersonalizado.Size = new Size(500, 30);
             tituloPersonalizado.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             this.Controls.Add(tituloPersonalizado);
-
+            //Andre Gonzalez 9959-23-3117
             // Crear controles de búsqueda
             CrearControlesBusqueda();
 
@@ -45,7 +45,7 @@ namespace AdministradorTareasGrupo1
             timer1.Enabled = true;
             AplicarTemaSistema();
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void CrearControlesBusqueda()
         {
             // Label para búsqueda
@@ -78,7 +78,7 @@ namespace AdministradorTareasGrupo1
 
 
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void TxtBuscar_Enter(object sender, EventArgs e)
         {
             // Cuando el usuario hace clic en el TextBox, limpiar el placeholder
@@ -87,7 +87,7 @@ namespace AdministradorTareasGrupo1
                 txtBuscar.ForeColor = Color.Black;
             }
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void TxtBuscar_Leave(object sender, EventArgs e)
         {
             // Cuando el usuario sale del TextBox, mostrar placeholder si está vacío
@@ -96,7 +96,7 @@ namespace AdministradorTareasGrupo1
                 txtBuscar.ForeColor = Color.Gray;
             }
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void TxtBuscar_TextChanged(object sender, EventArgs e)
         {
             // Solo filtrar si no es el texto placeholder
@@ -104,7 +104,7 @@ namespace AdministradorTareasGrupo1
                 FiltrarProcesos();
             }
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void TxtBuscar_KeyDown(object sender, KeyEventArgs e)
         {
             // Si presiona Enter, buscar y seleccionar el primer resultado
@@ -126,8 +126,8 @@ namespace AdministradorTareasGrupo1
                 e.SuppressKeyPress = true;
             }
         }
-
-            private void FiltrarProcesos()
+        //Andre Gonzalez 9959-23-3117
+        private void FiltrarProcesos()
         {
             string filtro = txtBuscar.Text.Trim().ToLower();
 
@@ -187,7 +187,7 @@ namespace AdministradorTareasGrupo1
 
             return string.Format("{0:n1} {1}", number, suffixes[counter]);
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void AplicarTemaSistema()
         {
             bool esTemaOscuro = EsTemaOscuro();
@@ -223,7 +223,7 @@ namespace AdministradorTareasGrupo1
                     txtBuscar.ForeColor = Color.Gray; // Mantener gris para placeholder
                 }
             }
-
+            //Andre Gonzalez 9959-23-3117
             // Cambia el tema de los controles Metro
             foreach (Control ctrl in this.Controls)
             {
@@ -256,7 +256,7 @@ namespace AdministradorTareasGrupo1
                     }
                 }
             }
-
+            //Andre Gonzalez 9959-23-3117
             // DataGridView: aplica colores manualmente
             Color fondo = esTemaOscuro ? Color.FromArgb(32, 32, 32) : Color.White;
             Color texto = esTemaOscuro ? Color.White : Color.Black;
@@ -281,7 +281,7 @@ namespace AdministradorTareasGrupo1
             // Aplica colores a controles estándar (excluyendo los de búsqueda ya aplicados)
             AplicarColoresControles(this.Controls, fondo, texto);
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void AplicarColoresControles(Control.ControlCollection controles, Color fondo, Color texto)
         {
             foreach (Control ctrl in controles)
@@ -300,7 +300,7 @@ namespace AdministradorTareasGrupo1
                     AplicarColoresControles(ctrl.Controls, fondo, texto);
             }
         }
-
+        //Andre Gonzalez 9959-23-3117
         private bool EsTemaOscuro()
         {
             try
@@ -321,7 +321,7 @@ namespace AdministradorTareasGrupo1
             catch { }
             return false;
         }
-
+        //Andre Gonzalez 9959-23-3117
         private void UpdateProcessList()
         {
             // Guardar la lista completa de procesos
