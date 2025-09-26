@@ -144,7 +144,7 @@ namespace AdministradorTareasGrupo1
             var procesosFiltrados = string.IsNullOrEmpty(filtro)
                 ? listaProcesosFull
                 : listaProcesosFull.Where(p => p.ProcessName.ToLower().Contains(filtro)).ToList();
-
+            //Realizado por Sofia Andrade 9959-23-1224
             foreach (Process p in procesosFiltrados)
             {
                 try
@@ -161,7 +161,7 @@ namespace AdministradorTareasGrupo1
                     // Algunos procesos pueden no estar disponibles
                 }
             }
-
+            //Realizado por Sofia Andrade 9959-23-1224
             // Actualizar contador
             if (string.IsNullOrEmpty(filtro))
             {
@@ -330,12 +330,12 @@ namespace AdministradorTareasGrupo1
             // Si hay filtro aplicado, filtrar; si no, mostrar todos
             FiltrarProcesos();
         }
-
+        //Realizado por Sofia Andrade 9959-23-1224
         private void VentanaAdmin_Load(object sender, EventArgs e)
         {
             timer2.Start();
         }
-
+        //Realizado por Sofia Andrade 9959-23-1224
         private void metroTile1_Click(object sender, EventArgs e)
         {
             try
@@ -370,17 +370,17 @@ namespace AdministradorTareasGrupo1
         private void label2_Click(object sender, EventArgs e)
         {
         }
-
+        //Realizado por Sofia Andrade 9959-23-1224 boton de actualizar
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             UpdateProcessList();
         }
-
+        //Realizado por Sofia Andrade 9959-23-1224
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
-
+        //Realizado por Sofia Andrade 9959-23-1224
         private void dgvAdministrador_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0 && dgvAdministrador.CurrentRow != null)
